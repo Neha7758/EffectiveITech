@@ -33,7 +33,7 @@ let value= e.target.value;
         // alert(user);
         console.log(user);
         try{
-        const response= await fetch("https://effectiveitech-backend.onrender.com/api/auth/login",{
+        const response= await fetch("https://effectiveitech-backend.onrender.com",{
             method:"POST",
             headers: {
                 "Content-Type":"application/json",
