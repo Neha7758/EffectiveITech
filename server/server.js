@@ -55,7 +55,7 @@ app.get("/contactus", (req, res )=>{
 });
 
 
-const PORT= 5000;
+const PORT=process.env.PORT || 4000;
 
 connectDb().then(()=>{
 app.listen( PORT, ()=>{
