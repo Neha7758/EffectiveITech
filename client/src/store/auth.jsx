@@ -25,7 +25,7 @@ export const AuthProvider = ({ children }) => {
     // to fetch the services data from the database
     const getServices=async()=>{
         try{
-            const response=await fetch("https://effectiveitech-backend.onrender.com",
+            const response=await fetch("https://effectiveitech-backend.onrender.com/api/auth/login",
 {
     method:"GET",
 });
